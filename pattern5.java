@@ -1,3 +1,4 @@
+//hollow square
 import java.util.*;
 
 public class pattern5 {
@@ -7,9 +8,9 @@ public class pattern5 {
 
         System.out.print("Enter the size: ");
         int n = sc.nextInt();
-
+       //outer loop for rows
         for (int i = 1; i <= n; i++) {
-
+            //inner loops for columns
             for (int j = 1; j <= n; j++) {
 
                 if (i == 1 || i == n || j == 1 || j == n) {
